@@ -14,6 +14,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>order-service</module>
+		<module>stock-service</module>
 	</modules>
 	<name>kafka_demo</name>
 	<description>Demo project for Spring Boot</description>

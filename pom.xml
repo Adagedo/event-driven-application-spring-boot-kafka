@@ -11,6 +11,10 @@
 	<groupId>com.adagedo_softengineer</groupId>
 	<artifactId>kafka_demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>order-service</module>
+	</modules>
 	<name>kafka_demo</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>

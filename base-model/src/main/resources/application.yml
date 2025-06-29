@@ -12,9 +12,7 @@ spring:
             kafka:
               common:
                 serialization: StringSerializer
-      value-serializer:
-        org:
-          springframework:
-            kafka:
-              support:
-                serializer: JsonSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+    topic:
+      name: order_topic

@@ -27,7 +27,7 @@ public class OrderProducer {
     public void sendMessage(OrderEvent event) {
         logger.info(String.format("order event => %s", event.toString()));
         Message<OrderEvent> message = MessageBuilder.withPayload(event).setHeader(kafkaHeaders.TOPIC, topic.name()).build();
-        template.send(message);
+        template.send(message); // sends message to the topic 
 
     }
 }

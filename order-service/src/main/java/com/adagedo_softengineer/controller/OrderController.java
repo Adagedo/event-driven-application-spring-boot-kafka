@@ -2,11 +2,12 @@ package com.adagedo_softengineer.controller;
 
 import java.util.UUID;
 
-import org.hibernate.query.Order;
+
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import com.adagedo_softengineer.dto.Order;
 
 import com.adagedo_softengineer.kafka.OrderProducer;
 
